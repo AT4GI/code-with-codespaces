@@ -1,0 +1,9 @@
+{
+  // この設定の名前
+  "name": "Codespace for Skills!",
+  // ベースイメージとして GitHub の公式イメージを使う
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+
+  "remoteUser": "codespace",
+  "overrideCommand": false
+}
