@@ -6,4 +6,17 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false
-}
+,
+// カスタマイズセクション
+"customizations": {
+  "vscode": {
+    "extensions": [
+      "GitHub.copilot"  // GitHub Copilot 拡張機能を自動でインストール
+    ]
+  },
+  "codespaces": {
+    "openFiles": [
+      "codespace.md"   // 起動時にこのファイルを自動で開く
+    ]
+  }
+}}
