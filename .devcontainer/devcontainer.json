@@ -19,4 +19,7 @@
       "codespace.md"   // 起動時にこのファイルを自動で開く
     ]
   }
-}}
+}
+,
+"postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
+}
